@@ -1,8 +1,39 @@
-# TempeHS Arduino Bootcamp
+# LightTouch Adaptive Controller Project
 
 This is the folder structure and starter files for students completing the TempeHS Arduino Bootcamp.
 
 The bootcamp uses the **official [Arduino Sensor Kit](https://sensorkit.arduino.cc/)**: a Grove base shield and prewired modules that connect with Grove cables (no breadboard wiring needed for the kit modules). Your kit also includes a **Grove Line Finder** and a **Grove 3-pin Ultrasonic sensor**. The motor activities use real wiring with external power.
+
+## Overview of LightTouch
+The  proposed device is a light touch adaptive gaming controller that senses gentle hand movements and low-force inputs, then converts them into precise Xbox controller actions. It will use large, soft touch pads as the input surfaces, paired with a microcontroller that interprets each movement and sends the correct command to the console. This device is designed for Anna, a teenage gamer whose upper limb strength is declining due to Duchenne muscular dystrophy. She struggles with standard Xbox controllers due to the buttons being too small and sensitive, and her hands fatigue quickly. Anna’s medical notes show that her upper limb strength will continue to decline, and she already finds it difficult to press small buttons accurately. This means traditional controllers are no longer accessible to her. This adaptive controller will allow Anna to continue gaming comfortably and independently, restoring an activity that is socially and emotionally important to her. By reducing the physical effort required and preventing mis presses, the device will let her focus on gameplay rather than her limitations. It will support her long-term needs, maintain her confidence, and ensure she can keep enjoying the games she loves.
+
+## Profile of patient
+### Anna
+Hi, my name is Anna, I love to game, I love all sorts of games, but mostly, I love platformers and infinite runners. I was born with muscular dystrophy, and my doctors tell me it is getting worse. About four years ago, I was finding keyboards too difficult, but I found freedom when someone showed me how to connect an Xbox controller to my PC. Sadly, in the last month, I stopped being able to use my Xbox controller, which really sucks, just because the buttons and joystick are too sensitive and too small.
+
+What I really need is a game controller just for me!
+
+If you would like to know more about what I need, please email me Anna c/o benjamin.jones21@det.nsw.edu.au
+
+### Summary of Medical notes:
+- DMD gene alteration
+- Congenital Duchenne muscular dystrophy
+- First identified at four months
+- Upper limb mobility and strength declining
+
+Referring Specialist: Ben Jones - benjamin.jones21@det.nsw.edu.au
+
+## High-level pictorial
+<img width="3510" height="2482" alt="17092026121504-0001" src="https://github.com/user-attachments/assets/c2523ac9-9883-43cf-92ed-a938db7bb5f9" />
+
+## Components included
+- Soft‑touch capacitive/force‑sensing pad
+- Microcontroller (Arduino or Teensy with USB HID support)
+- USB cable
+- Prototype casing (3D printed or acrylic)
+- LED indicator or vibration motor (feedback module)
+- Wiring and connectors
+
 
 ## Getting started
 
