@@ -3,29 +3,29 @@
   "configurations": [
     {
       "name": "Arduino",
-      "compilerPath": "/home/vscode/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+      "compilerPath": "/home/vscode/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-g++",
       "compilerArgs": [
-        "-mmcu=atmega328p"
+        "-mcpu=cortex-m0plus"
       ],
-      "intelliSenseMode": "gcc-x64",
+      "intelliSenseMode": "gcc-arm",
       "includePath": [
         "${workspaceFolder}/**",
-        "/home/vscode/.arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino",
-        "/home/vscode/.arduino15/packages/arduino/hardware/avr/1.8.8/variants/standard",
-        "/home/vscode/.arduino15/packages/arduino/hardware/avr/1.8.8/libraries/**",
+        "/home/vscode/.arduino15/packages/arduino/hardware/samd/1.8.14/cores/arduino",
+        "/home/vscode/.arduino15/packages/arduino/hardware/samd/1.8.14/variants/mkrwifi1010",
+        "/home/vscode/.arduino15/packages/arduino/hardware/samd/1.8.14/libraries/**",
         "/home/vscode/Arduino/libraries/**",
-        "/home/vscode/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include"
+        "/home/vscode/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/arm-none-eabi/include"
       ],
       "forcedInclude": [
-        "/home/vscode/.arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino/Arduino.h"
+        "/home/vscode/.arduino15/packages/arduino/hardware/samd/1.8.14/cores/arduino/Arduino.h"
       ],
       "cStandard": "c11",
-      "cppStandard": "c++11",
+      "cppStandard": "c++17",
       "defines": [
         "ARDUINO=10607",
-        "F_CPU=16000000L",
-        "ARDUINO_AVR_UNO",
-        "ARDUINO_ARCH_AVR"
+        "F_CPU=48000000L",
+        "ARDUINO_SAMD_MKRWIFI1010",
+        "ARDUINO_ARCH_SAMD"
       ]
     }
   ]
