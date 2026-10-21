@@ -5,3 +5,8 @@
 platform arduino:avr 1.8.8
 platform arduino:samd 1.8.14
 
+# Libraries
+library MPR121 1.3.0
+
+# Devices (learned from successful uploads)
+device 0x2341:0x8054 arduino:samd:mkrwifi1010
