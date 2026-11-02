@@ -5,3 +5,6 @@
 platform arduino:avr 1.8.8
 platform arduino:samd 1.8.14
 
+
+# Devices (learned from successful uploads)
+device 0x2341:0x0054 arduino:samd:mkrwifi1010
