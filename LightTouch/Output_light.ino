@@ -4,6 +4,13 @@ void light_setup() {
 }
 
 void light_output(){
-    digitalWrite(LED_PIN, sense_status);
+    int anyTouched = LOW;
+
+    for (int i = 0; i < CHANNEL_NUM; i++) {
+        if (channelSignal[i] == HIGH) {
+            anyTouched = HIGH;
+        }
+    }
+    digitalWrite(LED_PIN, anyTouched);
 
 }

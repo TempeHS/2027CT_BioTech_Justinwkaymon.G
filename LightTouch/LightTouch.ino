@@ -1,8 +1,9 @@
 #include "Seeed_MPR121_driver.h"
-const int LED_PIN  = 4;
+const int LED_PIN  = 6;
 Mpr121 mpr121;
 bool sense_status = false;
 u16 touch_status_flag[CHANNEL_NUM] = {0};
+int channelSignal[CHANNEL_NUM] = {0};
 
 void setup(){
   Serial.begin(115200);
